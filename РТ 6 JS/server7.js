@@ -1,9 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-
     res.statusCode = 200;
-
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
 
     const html = `
@@ -21,7 +19,7 @@ const server = http.createServer((req, res) => {
         </header>
 
         <main>
-            <h2>Главная страница</h2>
+            <h2>главная страница</h2>
 
             <p>
                 добро пожаловать на сервер node.js
