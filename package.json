@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "figlet": "^1.11.0",
-    "uuid": "^14.0.0"
-  }
-}
